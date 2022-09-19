@@ -45,3 +45,22 @@
 .container-image >span{
     margin:auto;
 }
+.btn-class{
+    display:flex;
+    justify-content:end;
+}
+.btn-home{
+
+    padding:0.3rem 1rem;
+}
+.span-center{
+    display:flex;
+    justify-content:center;
+}
+
+.span-center > span{
+    font-size:1.2rem;
+}
+.span-home{
+    margin-right:1rem;
+}
