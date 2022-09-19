@@ -16,3 +16,42 @@ export const plansData = [
         image: 'https://newevolutiondesigns.com/images/freebies/cool-4k-wallpaper-3.jpg'
     },
 ]
+
+export const DataHome = [
+    {
+        name: 'imagem01',
+        image: 'https://wallpaper.dog/large/20509487.jpg',
+    },
+    {
+        name: 'imagem02',
+        image: 'https://wallpaper.dog/large/20509487.jpg',
+    },
+    {
+        name: 'imagem03',
+        image: 'https://wallpaper.dog/large/20509487.jpg',
+    },
+    {
+        name: 'imagem04',
+        image: 'https://wallpaper.dog/large/20509487.jpg',
+    },
+    {
+        name: 'imagem05',
+        image: 'https://wallpaper.dog/large/20509487.jpg',
+    },
+    {
+        name: 'imagem06',
+        image: 'https://wallpaper.dog/large/20509487.jpg',
+    },
+    {
+        name: 'imagem07',
+        image: 'https://wallpaper.dog/large/20509487.jpg',
+    },
+    {
+        name: 'imagem08',
+        image: 'https://wallpaper.dog/large/20509487.jpg',
+    },
+    {
+        name: 'imagem09',
+        image: 'https://wallpaper.dog/large/20509487.jpg',
+    },
+]

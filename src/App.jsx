@@ -1,12 +1,10 @@
-import { Carousel } from "./Components/carousel/Carousel"
-import { Home } from "./Components/Pages/Home"
+import Routers from "./router";
 function App() {
 
 
   return (
     <>
-      {/* <Carousel /> */}
-      <Home />
+      <Routers />
     </>
   )
 }
