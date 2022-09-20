@@ -20,38 +20,50 @@ export const plansData = [
 export const DataHome = [
     {
         name: 'imagem01',
-        image: 'https://wallpaper.dog/large/20509487.jpg',
+        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
     },
     {
         name: 'imagem02',
-        image: 'https://wallpaper.dog/large/20509487.jpg',
+        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
     },
     {
         name: 'imagem03',
-        image: 'https://wallpaper.dog/large/20509487.jpg',
+        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
     },
     {
         name: 'imagem04',
-        image: 'https://wallpaper.dog/large/20509487.jpg',
+        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
     },
     {
         name: 'imagem05',
-        image: 'https://wallpaper.dog/large/20509487.jpg',
+        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
     },
     {
         name: 'imagem06',
-        image: 'https://wallpaper.dog/large/20509487.jpg',
+        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
     },
     {
         name: 'imagem07',
-        image: 'https://wallpaper.dog/large/20509487.jpg',
+        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
     },
     {
         name: 'imagem08',
-        image: 'https://wallpaper.dog/large/20509487.jpg',
+        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
     },
     {
         name: 'imagem09',
-        image: 'https://wallpaper.dog/large/20509487.jpg',
+        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
+    },
+    {
+        name: 'imagem010',
+        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
+    },
+    {
+        name: 'imagem11',
+        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
+    },
+    {
+        name: 'imagem12',
+        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
     },
 ]

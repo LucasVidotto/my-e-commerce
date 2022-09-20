@@ -37,15 +37,15 @@ export default function Home() {
                             {quanti <= 0 ? <span className="error">{mensagem}</span> : null}
                         </div>
                         <div className='btn-class'>
-                            <button name="more" className="btn-home" type="button" onClick={() => handlerClick(2, item.name)}> + </button>
-                            <button name="less" className="btn-home" type="button" onClick={() => handlerClick(1)}> - </button>
+                            <button name="more" className="btn-home btn btn--stripe" type="button" onClick={() => handlerClick(2, item.name)}> + </button>
+                            <button name="less" className="btn-home btn btn--stripe" type="button" onClick={() => handlerClick(1)}> - </button>
 
                         </div>
                     </div>
 
                 ))}
             </div>
-            <Link to='/cart' state={{ id: ids }} >CLick Next Page</Link>
+            <Link to='/cart' state={{ id: ids }} className="links" >CLick Next Page</Link>
         </div >
     )
 }
