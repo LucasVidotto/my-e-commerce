@@ -4,6 +4,9 @@ import { DataHome } from '../../Functionality'
 export default function Cart() {
     const location = useLocation();
     const data = location.state.id;
+    useEffect(()=>{
+        console.log([data]);
+    })
     return (
         <div className="container-home">
 

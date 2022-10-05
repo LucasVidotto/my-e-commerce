@@ -1,0 +1,53 @@
+.container-top {
+  width: 100%;
+  height: 8rem;
+  background: linear-gradient(135deg, #f02fc2 0%, #6094ea 100%);
+}
+
+.container-top > span {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  animation: float 2s linear infinite;
+}
+@-webkit-keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translateY(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translateY(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translateY(0px);
+  }
+}
+.container-top-sec {
+  width: 100%;
+  height: 7rem;
+  background: white;
+}
+
+.container-top-sec > div:nth-child(1) {
+  width: 100%;
+  height: 5rem;
+  margin-bottom: 0.6rem;
+
+  display: flex;
+  justify-content: center;
+}
+.container-top-sec > div:nth-child(2) {
+  width: 100%;
+  height: 3rem;
+  background: green;
+  display: flex;
+  justify-content: center;
+}
+
+.container-caroucel-props {
+  width: 100%;
+  height: 30rem;
+  background: red;
+}

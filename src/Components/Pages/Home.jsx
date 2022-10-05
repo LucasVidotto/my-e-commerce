@@ -6,7 +6,7 @@ import './home.css';
 export default function Home() {
     const [quanti, setQuanti] = useState(10);
     const [mensagem, setMensagem] = useState('faltando itens');
-    const [ids, setId] = useState('hello');
+    const [ids, setId] = useState([]);
     function handlerClick(number, tipo) {
         if (number === 1) {
             /* if (quanti <= 0) {
@@ -20,6 +20,7 @@ export default function Home() {
     }
     function handlerClickNext(tipo) {
         setId(tipo);
+        console.log(ids)
     }
     return (
         <div className="container-home">
@@ -39,7 +40,6 @@ export default function Home() {
                         <div className='btn-class'>
                             <button name="more" className="btn-home btn btn--stripe" type="button" onClick={() => handlerClick(2, item.name)}> + </button>
                             <button name="less" className="btn-home btn btn--stripe" type="button" onClick={() => handlerClick(1)}> - </button>
-
                         </div>
                     </div>
 
