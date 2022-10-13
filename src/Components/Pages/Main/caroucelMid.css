@@ -4,16 +4,16 @@
   box-sizing: border-box;
 }
 .container-wrapper {
-  margin-top: 2rem;
+  margin-top: 3.8rem;
   margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
   width: 80rem;
   height: 40rem;
-  position: absolute;
+  /* position: absolute;
   transform: translate(-50%, -50%);
   top: 85%;
-  left: 50%;
+  left: 50%; */
   overflow: hidden;
   border: 10px solid #ffffff;
   border-radius: 8px;
@@ -28,6 +28,7 @@
 
 img {
   width: 100%;
+  object-fit: fill;
 }
 
 @keyframes slide {

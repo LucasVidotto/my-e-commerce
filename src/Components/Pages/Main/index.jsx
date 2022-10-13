@@ -1,4 +1,7 @@
 import React from 'react';
+import { BsCart4 } from "react-icons/bs";
+import { AiOutlineShopping } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 import './main.css';
 import './carousel.css';
  import './caroucelMid.css'; 
@@ -8,7 +11,14 @@ function Main() {
   return (
     <div >
         <div className='container-top'>
-            <span>AriStore</span>
+            <h1>AriStore</h1>
+            <Link to='/cart'>
+                <BsCart4 size={40}  className='icon-cart icons'/>
+            </Link>
+            <Link to='/cart'>
+                <AiOutlineShopping size={40}  className='icon-shop icons'/>
+            </Link>
+            
         </div>
         <div className='container-top-sec'>
             <div className='sec-top-one'>
@@ -60,16 +70,34 @@ function Main() {
                 </div>
             </div>
             <div className='sec-top-two'>
-                Frete gratis a partir de R$ XX.XX
+                <h1>Frete gratis a partir de R$ XX.XX</h1>
             </div>
         </div>
         <div className="container-wrapper">
             <div className="wrapper">
-                <img src="https://filmswot.files.wordpress.com/2018/01/coco_dominates_chinese_box_office_.jpg"/>
-                <img src="https://www.foundry.com/sites/default/files/inline-images/Images_003_0.jpg"/>
-                <img src="https://www.foylefilmfestival.org/sites/default/files/COCO%20main%20image%203.jpg"/>
+                <img src="https://www.pinclipart.com/picdir/big/420-4207455_black-shirt-template-png-clipart.png"/>
+                <img src="https://imgstatic.soldoutservice.com/65ahKcdE/150856a4977/s2000/adidas-yeezy-boost-350-turtle-dove.jpg"/>
+                <img src="https://wallpapercave.com/wp/wp4676576.jpg"/>
                 <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F11%2Fcoco_c330_56b_pub-pub16n-186_rgb-2000.jpg"/>
             </div>
+        </div>
+        <div className='teste'>
+                <div className='promoO container-promo'>
+                    <h1>Promoção</h1>
+                    <span>Produto Tipo</span>
+                    <div className='promo-img type-one'></div>
+
+                </div>
+                <div className='promoT container-promo'>
+                    <h1>Promoção</h1>
+                    <span>Produto Tipo</span>
+                    <div className='promo-img type-two'></div>
+                </div>
+                <div className='promoOTR container-promo '>
+                    <h1>Promoção</h1>
+                    <span>Produto Tipo</span>
+                    <div className='promo-img type-three'></div>
+                </div>
         </div>
     </div>
   )
