@@ -20,15 +20,15 @@ export const plansData = [
 export const DataHome = [
     {
         name: 'imagem01',
-        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
+        image: 'https://freepngimg.com/thumb/tshirt/36674-2-plain-white-t-shirt-thumb.png',
     },
     {
         name: 'imagem02',
-        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
+        image: 'https://i.pinimg.com/originals/06/14/28/0614281c43fda3ad87fa9a82371032c4.png',
     },
     {
         name: 'imagem03',
-        image: 'https://i.pinimg.com/originals/56/c1/ee/56c1eea986a244a15244ade2a54f1fff.png',
+        image: 'https://www.nicepng.com/png/full/81-813967_grey-t-shirt-png-t-shirt-men-betty.png',
     },
     {
         name: 'imagem04',

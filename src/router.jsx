@@ -1,5 +1,5 @@
 import {  Router, Routes, Route } from "react-router-dom";
-import Home from './Components/Pages/Home';
+import Product from './Components/Pages/Product';
 import Cart from './Components/Pages/Cart/Cart';
 import Main from './Components/Pages/Main/index';
 import Login from "./Components/Pages/Log/login";
@@ -8,7 +8,7 @@ const Routers = () => {
         <>
 
                 <Routes>
-                    <Route exact path='/' element={<Home />} />
+                    <Route exact path='/' element={<Product />} />
                     <Route path='/cart' element={< Cart />} />
                     <Route path='/main' element={< Main />} />
                     <Route path='/login' element={< Login />} />

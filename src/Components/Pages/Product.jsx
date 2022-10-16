@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { DataHome } from '../../Components/Functionality';
+import { DataHome } from '../Functionality';
 import { Link } from 'react-router-dom';
 import './home.css';
 
-export default function Home() {
+export default function Product() {
     const [quanti, setQuanti] = useState(10);
     const [mensagem, setMensagem] = useState('faltando itens');
     const [ids, setId] = useState([]);

@@ -1,25 +1,13 @@
 import React from 'react';
-import { BsCart4 } from "react-icons/bs";
-import { AiOutlineShopping } from "react-icons/ai";
-import { Link } from 'react-router-dom';
 import './main.css';
 import './carousel.css';
  import './caroucelMid.css'; 
-
+ import './home.nav.css';
 
 function Main() {
   return (
     <div >
-        <div className='container-top'>
-            <h1>AriStore</h1>
-            <Link to='/cart'>
-                <BsCart4 size={40}  className='icon-cart icons'/>
-            </Link>
-            <Link to='/cart'>
-                <AiOutlineShopping size={40}  className='icon-shop icons'/>
-            </Link>
-            
-        </div>
+        
         <div className='container-top-sec'>
             <div className='sec-top-one'>
                 <div class="slider">
@@ -70,7 +58,7 @@ function Main() {
                 </div>
             </div>
             <div className='sec-top-two'>
-                <h1>Frete gratis a partir de R$ XX.XX</h1>
+                <h1>Frete gratis a partir de R$ 99.99</h1>
             </div>
         </div>
         <div className="container-wrapper">
@@ -81,6 +69,21 @@ function Main() {
                 <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F11%2Fcoco_c330_56b_pub-pub16n-186_rgb-2000.jpg"/>
             </div>
         </div>
+         <div className='nav-bar-noti'> 
+             <section>
+               
+                <nav>
+                    <ul class="menuItems">
+                    <li><a href='#' data-item='Home'>Home</a></li>
+                    <li><a href='#' data-item='About'>About</a></li>
+                    <li><a href='#' data-item='Projects'>Projects</a></li>
+                    <li><a href='#' data-item='Blog'>Blog</a></li>
+                    <li><a href='#' data-item='Contact'>Contact</a></li>
+                    </ul>
+                </nav>
+
+            </section> 
+         </div> 
         <div className='teste'>
                 <div className='promoO container-promo'>
                     <h1>Promoção</h1>

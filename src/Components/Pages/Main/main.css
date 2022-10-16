@@ -1,47 +1,3 @@
-.container-top {
-  width: 100%;
-  height: 8rem;
-  background: linear-gradient(135deg, #f02fc2 0%, #6094ea 100%);
-}
-
-.container-top > span {
-  color: white;
-  text-transform: uppercase;
-  font-size: 2.5rem;
-  animation: float 2s linear infinite;
-}
-.icon-cart {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.icon-shop {
-  position: absolute;
-  top: 0;
-  right: 4%;
-}
-
-.icons {
-  color: white;
-}
-.icons:hover {
-  /* color: gray; */
-  opacity: 0.5;
-}
-@-webkit-keyframes float {
-  0% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    transform: translateY(0px);
-  }
-  50% {
-    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-    transform: translateY(-20px);
-  }
-  100% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    transform: translateY(0px);
-  }
-}
 .container-top-sec {
   width: 100%;
   height: 7rem;
@@ -68,7 +24,7 @@
 .sec-top-two {
   margin-top: 1rem;
 }
-.sec-top-two > span {
+.sec-top-two > h1 {
   font-size: 2rem;
   font-family: cursive;
   color: black;
@@ -87,10 +43,9 @@
 }
 .teste {
   margin-top: 2rem;
+  margin-bottom: 2rem;
   width: 100%;
   height: 30rem;
-  margin-bottom: 0.6rem;
-
   display: inline-grid;
   grid-template-columns: auto auto auto;
   /* justify-content: center; */
@@ -133,6 +88,10 @@
   width: 16rem;
   height: 14rem;
 }
+.promo-img:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
 
 .type-one {
   background: url("https://www.transparentpng.com/thumb/adidas-shoes/a4xO3G-adidas-shoes-adidas-shoe-kids-superstar-daddy-grade.png");
@@ -161,8 +120,19 @@
   50% {
     transform: translatey(-6px) rotatez(-8deg) perspective(200px)
       translatez(50px);
+    color: red;
   }
   100% {
     transform: translatey(-10px) rotatez(-5deg) perspective(200px) translatez(0);
   }
+}
+
+.nav-bar-noti {
+  margin-top: 3rem;
+  width: 100%;
+  height: 100%;
+}
+.nav-bar-noti > section {
+  -webkit-box-shadow: 5px 5px 15px 16px #a1a1a1;
+  box-shadow: 5px 5px 15px 16px #a1a1a1;
 }

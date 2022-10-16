@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit:900");
+
+.container-top > h1 {
+  margin-top: 1rem;
+  color: #fff;
+  font-family: "Kanit";
+  font-size: 60px;
+  line-height: 1em;
+  margin: 0;
+  width: 100%;
+  text-shadow: 0 1px 0 rgba(110, 110, 110, 0.9),
+    0 2px 0 rgba(100, 100, 100, 0.9), 0 3px 0 rgba(99, 99, 99, 0.9),
+    0 4px 0 rgba(80, 80, 80, 0.8), 0 5px 0 rgba(80, 80, 80, 0.8),
+    0 6px 0 rgba(70, 70, 70, 0.9), 0 7px 0 rgba(70, 70, 70, 0.9),
+    0 8px 0 rgba(70, 70, 70, 0.9), 0 0 5px rgba(95, 95, 95, 0.4),
+    0 -1px 3px rgba(100, 100, 100, 0.2), 0 9px 9px rgba(100, 100, 100, 0.3),
+    0 12px 12px rgba(100, 100, 100, 0.3), 0 15px 15px rgba(100, 100, 100, 0.3);
+}

@@ -2,6 +2,7 @@
   padding: 40px 0;
   background-color: #ffffff;
   color: #4b4c4d;
+  border-top: 0.8px solid grey;
 }
 
 .footer-basic ul {
@@ -42,7 +43,7 @@
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #ccc;
+  border: 1px solid #4b5563;
   margin: 0 8px;
   color: inherit;
   opacity: 0.75;
@@ -58,8 +59,15 @@
   margin-top: 15px;
   text-align: center;
   font-size: 15px;
-  color: #aaa;
+  opacity: 0.6;
+  border-color: black;
   margin-bottom: 0;
+}
+.copyright:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+  opacity: 0.9;
+  border-color: black;
 }
 footer {
   display: flex;

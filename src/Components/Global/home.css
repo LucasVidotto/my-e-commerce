@@ -1,0 +1,56 @@
+.container-top {
+  width: 100%;
+  height: 8rem;
+  background-image: radial-gradient(
+    circle,
+    #0a0a6d,
+    #09096c,
+    #09096a,
+    #080869,
+    #080868,
+    #261b74,
+    #3b2d80,
+    #4d3f8c,
+    #7569a7,
+    #9d94c3
+  );
+}
+
+.container-top > span {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  animation: float 2s linear infinite;
+}
+.icon-cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.icon-shop {
+  position: absolute;
+  top: 0;
+  right: 4%;
+}
+
+.icons {
+  color: white;
+}
+.icons:hover {
+  /* color: gray; */
+  opacity: 0.5;
+}
+@-webkit-keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translateY(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translateY(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translateY(0px);
+  }
+}

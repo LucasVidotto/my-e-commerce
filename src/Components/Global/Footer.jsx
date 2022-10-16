@@ -14,7 +14,7 @@ export default function Footer(){
         <>
         <div className="footer-basic">
             <footer>
-                <span>Contat Me!</span>
+                <span>Contact Me!</span>
                 <div className="social">
                     <a href="https://www.linkedin.com/in/lucas-vidotto-58a4a0127/">
                         <AiOutlineLinkedin className='icons-footer'/>
