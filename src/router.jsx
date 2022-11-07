@@ -3,15 +3,17 @@ import Product from './Components/Pages/Product';
 import Cart from './Components/Pages/Cart/Cart';
 import Main from './Components/Pages/Main/index';
 import Login from "./Components/Pages/Log/login";
+import Feed from "./Components/Pages/Feed/Feed";
 const Routers = () => {
     return (
         <>
 
                 <Routes>
-                    <Route exact path='/' element={<Product />} />
+                    <Route exact path='/' element={< Main />} />
+                    <Route  path='/tshort' element={<Product />} />
                     <Route path='/cart' element={< Cart />} />
-                    <Route path='/main' element={< Main />} />
                     <Route path='/login' element={< Login />} />
+                    <Route path='/feed' element={< Feed />} />
                 </Routes>
 
         </>

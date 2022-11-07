@@ -1,7 +1,13 @@
+section {
+  border-radius: 10px;
+}
+
 nav {
   margin: 25px;
-  background: #f9f9f9;
+  /* background: #f9f9f9; */
   padding: 16px;
+  display: flex;
+  justify-content: center;
 }
 nav .menuItems {
   list-style: none;
@@ -13,6 +19,7 @@ nav .menuItems li {
 nav .menuItems li a {
   text-decoration: none;
   color: #8f8f8f;
+  /* background: #f9f9f9; */
   font-size: 24px;
   font-weight: 400;
   transition: all 0.5s ease-in-out;
@@ -22,7 +29,7 @@ nav .menuItems li a {
 nav .menuItems li a::before {
   content: attr(data-item);
   transition: 0.5s;
-  color: #8254ff;
+  color: #18181b;
   position: absolute;
   top: 0;
   bottom: 0;

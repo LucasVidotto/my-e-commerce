@@ -8,8 +8,11 @@ import './text3d.css';
 export default function Home(){
     return(
             <>
-            <div className='container-top'>
-                <h1>AriStore</h1>
+            <div className='container-top' data-aos="fade-up">
+                <Link to="/"  data-title="Back to Menu" >
+                <span>This is the CSS tooltip showing up when you mouse over the link</span>
+                    <h1>AriStore</h1>
+                </Link>
                 <Link to='/cart'>
                     <BsCart4 size={40}  className='icon-cart icons'/>
                 </Link>

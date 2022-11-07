@@ -22,6 +22,9 @@
   font-size: 2.5rem;
   animation: float 2s linear infinite;
 }
+.container-top > a {
+  text-decoration: none;
+}
 .icon-cart {
   position: absolute;
   top: 0;

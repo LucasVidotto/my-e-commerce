@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './main.css';
 import './carousel.css';
  import './caroucelMid.css'; 
@@ -8,7 +9,7 @@ function Main() {
   return (
     <div >
         
-        <div className='container-top-sec'>
+        <div className='container-top-sec' >
             <div className='sec-top-one'>
                 <div class="slider">
                     <div class="slide-track">
@@ -71,17 +72,15 @@ function Main() {
         </div>
          <div className='nav-bar-noti'> 
              <section>
-               
-                <nav>
+                <nav>   
                     <ul class="menuItems">
-                    <li><a href='#' data-item='Home'>Home</a></li>
-                    <li><a href='#' data-item='About'>About</a></li>
+                    <li><Link to="/tshort" data-item='TSHIRT'>TSHIRT</Link></li>
+                    <li><a href='#' data-item='SHOES'>SHOES</a></li>
                     <li><a href='#' data-item='Projects'>Projects</a></li>
                     <li><a href='#' data-item='Blog'>Blog</a></li>
                     <li><a href='#' data-item='Contact'>Contact</a></li>
                     </ul>
                 </nav>
-
             </section> 
          </div> 
         <div className='teste'>

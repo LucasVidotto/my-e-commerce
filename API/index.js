@@ -26,13 +26,47 @@ app.get("/users", (req, res) => {
     if (err) {
       console.log(err);
     } else {
+      res.json(result);
+    }
+  });
+});
+app.get("/stoque", (req, res) => {
+  let mysql = "SELECT * FROM TesteStoque";
+  db.query(mysql, (err, result) => {
+    if (err) {
+      console.log(err);
+    } else {
       res.send(result);
     }
   });
 });
-app.get("/product", (req, res) => {
-  let mysql = "SELECT * FROM TesteStoque";
-  db.query(mysql, (err, result) => {
+app.post("/estoque", (req, res) => {
+  console.log('chamou');
+  const { nome } = req.body;
+  const { url } = req.body;
+  let mysql = "INSERT INTO testestoque ( nome, url) VALUES (?, ?)";
+  db.query(mysql, [ nome, url], (err, result) => {
+    if (err) {
+      console.log(err);
+    } else {
+      res.send(result);
+    }
+  });
+});
+/* app.post("/stoque", (req, res) => {
+  const { nome } = req.body;
+  let mysql = "INSERT INTO teste ( nome) VALUES (?)";
+  db.query(mysql, [nome], (err, result) => {
+    res.send(result);
+  });
+}); */
+app.post("/stoque", (req, res) => {
+  console.log('chamou');
+  const { User } = req.body;
+  const { Name } = req.body;
+  console.log('User : '+User +' Name : '+Name);
+  let mysql = "INSERT INTO testecart (User, Name) VALUES (?, ?)";
+  db.query(mysql, [User, Name], (err, result) => {
     if (err) {
       console.log(err);
     } else {
