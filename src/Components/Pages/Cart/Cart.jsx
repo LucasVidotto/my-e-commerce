@@ -1,28 +1,43 @@
-import React, { useEffect } from 'react';
+import React, { useEffect,useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { DataHome } from '../../Functionality'
+import { Link } from 'react-router-dom';
+import axios from 'axios';
+import { DataHome } from '../../Functionality';
+import '../home.css';
 export default function Cart() {
-    const location = useLocation();
-    const data = location.state.id;
+    const [cart, setCart] = useState({});
+
     useEffect(()=>{
-        console.log([data]);
-    })
+        axios.get('http://localhost:4040/stoque',{
+        }).then((response)=>{
+            /* console.log(response.data) */
+            setCart(response.data);
+            console.log(cart);
+        }).catch((err) => {
+            console.error("ops! ocorreu um erro" + err);
+         });
+    },[10])
     return (
+        cart.length > 0 ? 
         <div className="container-home">
+            <div className='section-home'>
+            {cart.map((item) => (
+                
+                    <div className="container-image">
+                        <img src={item.url} key={item.idprod}/>
+                        <span>{item.nome}</span>
+                        <div className='btn-class'>
+                            <button name="more" className="btn-home btn btn--stripe" type="button" onClick={() => {handlerClick(2, item.name);hanlderClickSave(item.name)}}> + </button>
+                            <button name="less" className="btn-home btn btn--stripe" type="button" onClick={() => {handlerClick(1)}}> - </button> 
+                        </div>
+                    </div> 
+                
 
-            {DataHome.map((item, key) => (
-                <div className='section-home'>
-                    {item.name === data ? <div className="container-image">
-                        <img src={item.image} />
-                        <span>{item.name}</span>
-                    </div> :
-
-                        null
-                    }
-                </div>
-
-            ))}
-
-        </div >
+            ))} 
+            </div>
+        </div >:
+        <div>
+            <img scr="https://www.freeiconspng.com/thumbs/shopping-cart-icon/shopping-cart-icon-2.png" alt="imagem cart"/>
+        </div>
     )
 }

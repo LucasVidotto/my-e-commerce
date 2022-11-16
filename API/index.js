@@ -30,8 +30,21 @@ app.get("/users", (req, res) => {
     }
   });
 });
+app.delete("/delete/:id", (req, res) => {
+  console.log('chamou delete')
+  const { idprod} = 1;
+  let mysql = "DELETE FROM testestoque WHERE idprod = ?";
+  db.query(mysql, [idprod], (err, result) => {
+    if (err) {
+      console.log(err);
+    } else {
+      res.send(result);
+    }
+  });
+});
+
 app.get("/stoque", (req, res) => {
-  let mysql = "SELECT * FROM TesteStoque";
+  let mysql = "SELECT * FROM testestoque";
   db.query(mysql, (err, result) => {
     if (err) {
       console.log(err);

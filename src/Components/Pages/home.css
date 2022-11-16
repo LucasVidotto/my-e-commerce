@@ -64,6 +64,12 @@
   height: 19vh;
   margin: auto;
 }
+
+.container-image > img {
+  width: 17vw;
+  height: 19vh;
+  margin: auto;
+}
 .container-image > span {
   margin: auto;
   font-size: 20px;

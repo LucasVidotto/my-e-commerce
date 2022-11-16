@@ -1,4 +1,5 @@
 .container-top {
+  display: flex;
   width: 100%;
   height: 8rem;
   background-image: radial-gradient(
@@ -16,32 +17,45 @@
   );
 }
 
-.container-top > span {
-  color: white;
-  text-transform: uppercase;
-  font-size: 2.5rem;
-  animation: float 2s linear infinite;
-}
-.container-top > a {
+.container-top > .link-menu {
+  width: 21%;
+  height: 60%;
   text-decoration: none;
 }
 .icon-cart {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 1.5%;
+  z-index: 2;
 }
 .icon-shop {
   position: absolute;
-  top: 0;
-  right: 4%;
+  right: 6%;
 }
 
 .icons {
+  top: 1rem;
   color: white;
 }
 .icons:hover {
   /* color: gray; */
   opacity: 0.5;
+}
+
+.number-icon {
+  display: flex;
+  margin: auto;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: red;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 0.2rem;
+  right: 1.3%;
+  z-index: 1;
+  cursor: pointer;
 }
 @-webkit-keyframes float {
   0% {

@@ -7,7 +7,7 @@ export default function Feed(){
         <div className='main-container-feed'>
             <main className="container-feed">
                 <section className='section-feed right-feed'>
-                    <h1>AriStore</h1>
+                    <h1>LDVStore</h1>
                     <span>
                         Obrigado Pelo seu feedback!
                     </span>
