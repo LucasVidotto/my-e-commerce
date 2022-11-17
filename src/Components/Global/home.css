@@ -43,8 +43,6 @@
 }
 
 .number-icon {
-  display: flex;
-  margin: auto;
   width: 1.5rem;
   height: 1.5rem;
   background: red;
@@ -52,8 +50,8 @@
   font-size: 20px;
   color: white;
   position: absolute;
-  top: 0.2rem;
-  right: 1.3%;
+  top: 0.22rem;
+  right: 1.6%;
   z-index: 1;
   cursor: pointer;
 }

@@ -4,6 +4,7 @@ import Cart from './Components/Pages/Cart/Cart';
 import Main from './Components/Pages/Main/index';
 import Login from "./Components/Pages/Log/login";
 import Feed from "./Components/Pages/Feed/Feed";
+import Info from './Components/Pages/Info/info';
 const Routers = () => {
     return (
         <>
@@ -14,6 +15,7 @@ const Routers = () => {
                     <Route path='/cart' element={< Cart />} />
                     <Route path='/login' element={< Login />} />
                     <Route path='/feed' element={< Feed />} />
+                    <Route path='/info' element={< Info />} />
                 </Routes>
 
         </>
