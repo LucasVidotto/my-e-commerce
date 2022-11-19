@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CardPromo from '../../Global/CardPromo/card';
 import './main.css';
 import './carousel.css';
  import './caroucelMid.css'; 
@@ -8,8 +9,9 @@ import './carousel.css';
 function Main() {
   return (
     <div >
-        
+        <CardPromo />
         <div className='container-top-sec' >
+            
             <div className='sec-top-one'>
                 <div class="slider">
                     <div class="slide-track">

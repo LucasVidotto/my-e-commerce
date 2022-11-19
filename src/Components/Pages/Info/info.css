@@ -31,7 +31,11 @@
 }
 
 .info-containermid > figure > img {
+  transition: 1s;
   width: 70%;
+}
+.info-containermid > figure > img:hover {
+  width: 80%;
 }
 
 .info-containeritgh {

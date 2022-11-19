@@ -1,0 +1,48 @@
+.container-cardPromo {
+  position: fixed;
+  left: 1%;
+  top: 30%;
+  width: 24rem;
+  height: 24rem;
+  backdrop-filter: blur(8px) saturate(200%);
+  -webkit-backdrop-filter: blur(8px) saturate(200%);
+
+  background: rgb(5, 5, 5);
+  background: linear-gradient(
+    20deg,
+    rgba(5, 5, 5, 0.8) 24%,
+    rgba(235, 221, 221, 0.8) 45%,
+    rgba(21, 26, 208, 0.8) 75%
+  );
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  z-index: 2;
+}
+
+.icon-x {
+  background: transparent;
+  cursor: pointer;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+
+.icon-x > :nth-child(1) {
+  background: transparent;
+}
+
+.container-cardPromo > :nth-child(2) {
+  position: absolute;
+  top: 3%;
+  left: 30%;
+  width: 40%;
+}
+.container-cardPromo > :nth-child(3) {
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  width: 45%;
+}
+.container-cardPromo > :nth-child(3) > span {
+  font-size: 1.3rem;
+}

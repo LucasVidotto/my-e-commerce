@@ -1,8 +1,10 @@
 import React from 'react';
 import './info.css';
+import Note from './note';
 
 export default function Info(){
     return(
+        <>
         <div className="info-all">
             <div className='info-containerleft'>
                 <section className='info-section'>
@@ -32,6 +34,9 @@ export default function Info(){
                     </p>
                 </section>
             </div>
+            
         </div>
+        <Note />
+        </>
     )
 }

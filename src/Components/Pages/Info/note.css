@@ -1,0 +1,36 @@
+.container-notes {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.container-notes > :nth-child(1) {
+  margin: auto;
+  width: 90%;
+  height: 20rem;
+  border-top: 1px solid black;
+}
+
+.notes-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.notes-center > span {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.container-notes > div > section {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* .section-note > svg {
+  fill: grey;
+}
+.section-note > svg:hover {
+  fill: yellow;
+} */
