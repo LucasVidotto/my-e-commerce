@@ -14,7 +14,7 @@ export default function Home(){
         }).then((response)=>{
             /* console.log(response.data) */
             setNumberCart((response.data).length);
-            console.log(numberCart);
+            /* console.log(numberCart); */
         }).catch((err) => {
             console.error("ops! ocorreu um erro" + err);
          });

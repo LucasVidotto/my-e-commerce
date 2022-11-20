@@ -53,12 +53,23 @@ app.get("/stoque", (req, res) => {
     }
   });
 });
+
 app.post("/estoque", (req, res) => {
   console.log('chamou');
   const { nome } = req.body;
   const { url } = req.body;
   let mysql = "INSERT INTO testestoque ( nome, url) VALUES (?, ?)";
   db.query(mysql, [ nome, url], (err, result) => {
+    if (err) {
+      console.log(err);
+    } else {
+      res.send(result);
+    }
+  });
+});
+app.get("/notes", (req, res) => {
+  let mysql = "SELECT * FROM notes";
+  db.query(mysql, (err, result) => {
     if (err) {
       console.log(err);
     } else {

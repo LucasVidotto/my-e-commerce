@@ -5,6 +5,7 @@ import Main from './Components/Pages/Main/index';
 import Login from "./Components/Pages/Log/login";
 import Feed from "./Components/Pages/Feed/Feed";
 import Info from './Components/Pages/Info/info';
+import NotFound from "./Components/Pages/Error/NotFound";
 const Routers = () => {
     return (
         <>
@@ -16,6 +17,7 @@ const Routers = () => {
                     <Route path='/login' element={< Login />} />
                     <Route path='/feed' element={< Feed />} />
                     <Route path='/info' element={< Info />} />
+                    <Route path='*' element={<NotFound />}/>
                 </Routes>
 
         </>
