@@ -1,5 +1,5 @@
 # my-e-commerce
-Just an e-commerce using react with backend for learning
+Apenas um e-commerce usando react com back-end para aprendizado
 
 #Descrição do Projeto
 
