@@ -11,6 +11,8 @@ Um projeto de comércio eletrônico está sendo desenvolvido para fins de estudo
 
 - `Carrinho`: Destina-se ao registro da quantidade de mercadorias marcadas com a opção de compra que o consumidor pretende adquirir.
 - `Login`: A página de login verifica a capacidade dos usuários de entrar no sistema.
+- `Contato`: Página para comentários e avaliações de clientes, bem como informações de contato para vários cenários.
+- `Mercadoria`: Página dedicada à venda dos produtos da empresa, com possibilidade de adicionar ao cesto e aos favoritos.
 
 # HardSkills:
 ## Front
