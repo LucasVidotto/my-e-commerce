@@ -9,8 +9,8 @@ Um projeto de comércio eletrônico está sendo desenvolvido para fins de estudo
 
 # :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: descrição da funcionalidade 1
-- `Funcionalidade 2`: descrição da funcionalidade 2
+- `Carrinho`: Destina-se ao registro da quantidade de mercadorias marcadas com a opção de compra que o consumidor pretende adquirir.
+- `Login`: A página de login verifica a capacidade dos usuários de entrar no sistema.
 
 # HardSkills:
 ## Front
